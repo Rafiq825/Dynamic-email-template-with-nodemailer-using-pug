@@ -35,4 +35,4 @@ sendEmail(
   "anotherMessage",
   { accessCode: "123456" }
 );
-// sendEmail('email@domain.com', 'Dynamic Email Template with Pug', 'welcomeMessage', { userName: 'John Doe' })
+
