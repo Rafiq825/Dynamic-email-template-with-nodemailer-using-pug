@@ -3,7 +3,7 @@ require("dotenv").config();
 const nodemailer = require("nodemailer");
 const pug = require("pug");
 
-// Step 1: Configure transporter with GMAIL credentials
+
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
